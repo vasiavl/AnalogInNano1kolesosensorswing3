@@ -15,8 +15,7 @@ const int analogInPitchPin = A4; // пин для резистора по Pitch
       
 <<<<<<< HEAD
 int sensorSwing = 0;//значения датчика положение рулевых колес
-
-
+int flagY,flagYF;//
 int tvist;// ШИМ рулевого двигателя
 int tvistFlag;//значение реверса рулевого мотора
 int  Roll,outputRoll = 0;//преобразуем значения (приечем обрезанные 823-300) Roll в OutputRoll 1-1023
@@ -30,8 +29,8 @@ int Pitch = 0;
 int outputPitch = 0;
 int outputPitchD = 0;
 int R,Rdriv = 0;// шим правого двигателя
-int flagY,flagYF, flag,flagP =0;//непонятные переменные???
-int forwardR,forwardL =0;//состояние реверса двигателей и флаги  предыдущих состояний реверса ????
+
+int forwardR,forwardL,flag,flagP =0;//состояние реверса двигателей и флаги  переключения состояний
 int flagForwardR=0;// значение переключения реверса правого ходового двигателя
 void setup() {
    
