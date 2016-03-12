@@ -24,8 +24,8 @@ int outputPitch = 0;
 int outputPitchD = 0;
 int R,Rdriv = 0;// шим правого двигателя
 
-int forwardR,forwardL,flag,flagP,  flagForwardR =0;//состояние реверса двигателей и флаги  переключения состояний
-
+int forwardR,forwardL,flag,flagP =0;//состояние реверса двигателей и флаги  переключения состояний
+int flagForwardR=0;// значение переключения реверса правого ходового двигателя
 void setup() {
    
     pinMode(forward_agoPinR, OUTPUT);
