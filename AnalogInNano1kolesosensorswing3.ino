@@ -9,22 +9,13 @@ const int analogInPitchPin = A4; // пин для резистора по Pitch
   
   #define analogWriteRPin        9  // ШИМ на рулевой мотор
   #define analogWritePRYPinR      11// ШИМ на правый ходовой мотор
-
- 
-
       
-<<<<<<< HEAD
+
 int sensorSwing = 0;//значения датчика положение рулевых колес
-
-
 int tvist;// ШИМ рулевого двигателя
 int tvistFlag;//значение реверса рулевого мотора
 int  Roll,outputRoll = 0;//преобразуем значения (приечем обрезанные 823-300) Roll в OutputRoll 1-1023
-=======
-int sensorSwing = 0;//, outputSwingR, outputSwingL  ,returnSensorSwing
-int Roll,tvist,tvistFlag,flagY,flagYF;        
-int outputRoll = 0;
->>>>>>> parent of d2614f3... назначение переменной outputRoll
+
 int outputRollR = 0;
 int Pitch = 0;        
 int outputPitch = 0;
